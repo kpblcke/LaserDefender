@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 011f06c6e92240128c4b75f8faa9cd11, type: 3}
+  m_Name: EnemyLaserGunFast
+  m_EditorClassIdentifier: 
+  laserPrefab: {fileID: 1577513251400802500, guid: b22faaf6d51cd7a45928ca03bd611ee4,
+    type: 3}
+  projectileSpeed: 15
+  minTimeBetweenShots: 0.2
+  maxTimeBetweenShots: 1.5
+  autoFire: 1
+  playerGun: 0
+  shootSound: {fileID: 8300000, guid: 1ffb6a37b85b5bf43bfa8bead0b67bf7, type: 3}
+  shootSoundVolume: 0.2

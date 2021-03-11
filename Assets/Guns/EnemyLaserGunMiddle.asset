@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 011f06c6e92240128c4b75f8faa9cd11, type: 3}
+  m_Name: EnemyLaserGunMiddle
+  m_EditorClassIdentifier: 
+  laserPrefab: {fileID: 1577513251400802500, guid: 8bde36eeb92d5bb4db5f151fca9d25bd,
+    type: 3}
+  projectileSpeed: 11
+  minTimeBetweenShots: 1.2
+  maxTimeBetweenShots: 2
+  autoFire: 1
+  playerGun: 0
+  shootSound: {fileID: 8300000, guid: 302b17c05eaf56549bc73a57d6fab20f, type: 3}
+  shootSoundVolume: 0.2
